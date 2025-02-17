@@ -49,6 +49,8 @@ solution (applicant_matches, company_matches) = ({1: 2, 2: 3, 3: 1, 4: 5, 5: 4, 
 Note
     In the implementation, the agents are represented as positive integer numbers which are
     repeated between the groups but unique within the groups. This is an applicant centric solution.
+    The output consists of a tuple of two dictionaries, the first element in the tuple displays
+    the applicant's as keys and their matched company as values, the second is reversed.
 '''
 
 def gale_shapeley(n, applicant_pref, company_pref ):
