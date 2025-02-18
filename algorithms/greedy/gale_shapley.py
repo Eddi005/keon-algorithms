@@ -53,7 +53,7 @@ Note
     the applicant's as keys and their matched company as values, the second is reversed.
 '''
 
-def gale_shapeley(n, applicant_pref, company_pref ):
+def gale_shapley(n, applicant_pref, company_pref ):
     unmatched_companies = set();
     unmatched_applicants = set();
 
